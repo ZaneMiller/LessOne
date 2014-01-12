@@ -3,10 +3,10 @@ LessOne
 
 Automatically creates a single .css file from a collection of .less files using lessphp
 
-Much thanks to jtgrimes for the less4laravel packages, upon which most of this package is based:
+Much thanks to *jtgrimes* for the less4laravel packages, upon which most of this package is based:
 [https://github.com/jtgrimes/less4laravel](https://github.com/jtgrimes/less4laravel)
 
-More thanks due to leafo for the lessphp packages, which this package would be useless without:
+More thanks due to *leafo* for the lessphp packages, which this package would be useless without:
 [https://github.com/leafo/lessphp](https://github.com/leafo/lessphp)
 
 Instalation
