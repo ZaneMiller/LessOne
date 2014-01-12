@@ -68,7 +68,10 @@ class LessOne
 	{
 		$compileString = "";
 		foreach($this->config->get('less-one::files') as $path)
-			$compileString .= file_get_contents("$this->basePath/$path");
+		{
+			$compiler = $this->makeCompiler();
+			$compileString .= $compiler->compileFile("$this->basePath/$path");
+		}
 		return $compileString;
 	}
 
@@ -82,7 +85,7 @@ class LessOne
 		$compileString = "";
 		$compileString .= $this->importFromFolders();
 		$compileString .= $this->importFromFiles();
-		
+
 		$fileName = $this->config->get('less-one::output_file');
 		$outPath = $this->config->get('less-one::output_path');
 		$linkPath =	$this->config->get('less-one::link_folder');
