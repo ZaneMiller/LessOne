@@ -1,0 +1,25 @@
+{
+    "name": "zanemiller/less-one",
+    "description": "Automatically creates a single .css file from a collection of .less files using lessphp",
+    "keywords": ["laravel", "less"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zane Miller",
+            "email": "DesignByZane@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "illuminate/html": "4.*",
+        "leafo/lessphp": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zanemiller\\LessOne\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+
