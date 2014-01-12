@@ -3,6 +3,12 @@ LessOne
 
 Automatically creates a single .css file from a collection of .less files using lessphp
 
+Much thanks to jtgrimes for the less4laravel packages, upon which most of this package is based:
+[https://github.com/jtgrimes/less4laravel](https://github.com/jtgrimes/less4laravel)
+
+More thanks due to leafo for the lessphp packages, which this package would be useless without:
+[https://github.com/leafo/lessphp](https://github.com/leafo/lessphp)
+
 Instalation
 ===========
 
@@ -39,6 +45,9 @@ First publish a copy of the configuration file with Aritisan:
 $ php artisan config:publish zanemiller/less-one
 ```
 The settings files can now be found in `/app/config/packages/zanemiller/less-one/config.php`
+
+The details of the configuration file can be found in:
+[https://github.com/ZaneMiller/LessOne/wiki/Configuration](https://github.com/ZaneMiller/LessOne/wiki/Configuration)
 
 Usage
 =====
