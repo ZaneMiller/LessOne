@@ -47,7 +47,7 @@ $ php artisan config:publish zanemiller/less-one
 The settings files can now be found in `/app/config/packages/zanemiller/less-one/config.php`
 
 The details of the configuration file can be found in:
-[https://github.com/ZaneMiller/LessOne/wiki/Configuration](https://github.com/ZaneMiller/LessOne/wiki/Configuration)
+[https://github.com/ZaneMiller/LessOne/wiki/Usage](https://github.com/ZaneMiller/LessOne/wiki/Usage)
 
 Usage
 =====
