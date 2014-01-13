@@ -36,6 +36,21 @@ Next find the *aliases* section and add:
 	'LessOne' => 'Zanemiller\LessOne\LessOneFacade'
 ```
 
+To use LessOne with the default settings you will also have to create three folders (if they do not already exist in your project).
+
+In the `/app` folder create two folders called `css` and `less` respectivly.
+
+Finally in `/public` create a folder called `css`
+
+So your final file structure should include:
+```
+/app
+    /css
+    /less
+/public
+    /css
+```
+
 Configuration
 =============
 
