@@ -33,7 +33,7 @@ Open `app/config/app.php` and add find the *providers* section and add:
 Next find the *aliases* section and add:
 
 ```php
-	'LessOne' => 'Zanemiller\LessOne'
+	'LessOne' => 'Zanemiller\LessOne\LessOneFacade'
 ```
 
 Configuration
