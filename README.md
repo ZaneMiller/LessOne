@@ -9,8 +9,8 @@ Much thanks to *jtgrimes* for the less4laravel packages, upon which most of this
 More thanks due to *leafo* for the lessphp packages, which this package would be useless without:
 [https://github.com/leafo/lessphp](https://github.com/leafo/lessphp)
 
-Instalation
-===========
+Installation
+============
 
 Add `zanemiller/less-one` as a requirement to composer.json:
 ```javascript
